@@ -1,0 +1,229 @@
+body{
+    padding:0;
+    box-sizing:border-box;
+    margin:0;
+    font-family: 'Raleway Dots', cursive;
+   
+}
+html{
+    font-size:15px;
+
+}
+.inner{
+    padding:5px 5px;
+    max-width:1200px;
+    margin:0 auto;
+    width:90%;
+
+}
+header{
+    background-image: url("../image2/dd.jpg");
+    height:21rem;
+    background-size:cover;
+    text-align:center;
+}
+nav{
+    display:flex;
+   
+    justify-content:space-between;
+
+}
+ul{
+    list-style-type:none;
+    display:flex;
+
+    
+}
+ul li{
+    padding-right:2rem;
+
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-size:0.8rem;
+    font-weight:bold;
+}
+.logo{
+    font-size:0.8rem;
+    font-weight:bold;
+    
+    margin-top:1rem;
+}
+.heading{
+    color:rgb(190, 180, 180);
+    padding-top:2rem;
+    
+}
+.heading h1{
+    font-size:2rem;
+    font-weight:bold;
+}
+.heading h6{
+    font-size:0.6rem;
+    color:rgb(175, 170, 170);
+    font-weight:bold;
+}
+
+.flex-box{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+
+.info {
+    width:90%;
+    padding:20px 0px;
+}
+.info section{
+    width:30%;
+    padding:20px 0px;
+}
+.info section h2{
+    color:rgb(86, 86, 209);
+    line-height:0.9 rem;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+.info section p{
+    color:grey;
+    font-size:1rem;
+    font-weight:bold;
+    line-height:1.1rem;
+    padding-top:0.7rem;
+}
+button{
+    width:4rem;
+    height:2rem;
+    background-color: rgb(71, 71, 212);
+    color:white;
+    font-size:1rem;
+}
+hr{
+    width:0.5px;
+    height:none;
+    border:none;
+    background-color:rgb(209, 205, 200);
+}
+.testimonal-wrapper{
+    width:100%;
+    background-color:rgb(81, 81, 212);
+    color:white;
+    text-align:center;
+    padding-top:1.2rem;
+    padding-bottom:5rem;
+    
+    
+}
+
+.inner h3{
+    font-size:1.9rem;
+    font-weight:bold;
+    margin-bottom:0px;
+
+}
+.inner p{
+    font-size:0.8rem;
+    padding:1rem 0rem; 
+    font-weight:bold;
+}
+
+.testimonal{
+    width:18%;
+    border:1px solid white;
+    
+}
+.testimonal img{
+    border-radius:100%;
+    width:60%;
+    padding-top:1rem;
+   
+}
+.testimonal h3{
+   font-size:1rem;
+   margin:0;
+   font-weight:bold;
+    
+}
+.testimonal h5{
+    font-size:0.8rem;
+    margin-top:0;
+    font-weight:bold;
+     
+ }
+ .image-gallery{
+    
+  
+     text-align:center;
+    
+ }
+ .image-gallery h1{
+    font-weight:bold;
+     color:rgb(81, 81, 204);
+     text-align:center;
+     margin-bottom:0;
+ }
+ .image-gallery p{
+    font-weight:bold;
+    color:rgb(144, 144, 151);
+    font-size:0.8rem;
+    margin:0;
+    padding:0;
+ }
+.left{
+    width:44%;
+    padding-top:2rem;
+    text-align:left;
+    margin:0 auto;
+    padding-left:1.4rem;
+
+}
+.right{
+    width:44%;
+    padding-top:2rem;
+    text-align:left;
+    margin:0 auto;
+    padding-right:1rem;
+
+}
+.image-gallery .left img{
+    width:95%;
+}
+.image-gallery .right img{
+    width:95%;
+}
+.image-gallery h3{
+    color:rgb(87, 87, 199);
+    font-size:1.1rem;
+}
+.image-gallery p{
+    color:rgb(159, 159, 167);
+    font-size:1rem;
+    padding:1.5rem 0rem;
+}
+.footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-top:1rem;
+    margin-top:2rem;
+    border-top:1px solid rgb(202, 199, 199);
+
+}
+
+
+.footer .copyright j{
+    color:rgb(156, 144, 144);
+    font-size:0.7rem;
+    font-weight:bold;
+}
+.footer .socialmedia {
+    color:rgb(34, 80, 207);
+    font-size:1rem;
+ 
+
+}
+.socialmedia span{
+    padding-right:0.3rem;
+}
